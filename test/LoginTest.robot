@@ -5,7 +5,7 @@ Resource    ../Resources/LoginKeywords.robot
 *** Variables ***
 ${browser}      chrome
 ${url}      https://demo.guru99.com/popup.php
-${username}     anilreddyg222@gmail.com
+${username}     **********@gmail.com
 ${siteurl}      https://demo.guru99.com/articles_popup.php
 
 *** Test Cases ***
