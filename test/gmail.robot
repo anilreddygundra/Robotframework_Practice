@@ -15,7 +15,7 @@ ${decryptedcode}    b64decode   ${encryptcode}
 *** Test Cases ***
 Login test
     Open Browser    ${url}      ${browser}
-    Input Text    xpath://input[@type='email']      chandanko760@gmail.com
+    Input Text    xpath://input[@type='email']      *********@gmail.com
     Click Element    xpath://span[.='Next']
     Sleep    10
     Input Text    xpath://input[@type='password']       ${decryptedcode}
