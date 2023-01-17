@@ -1,0 +1,38 @@
+#  email: xpath://input[@type='email']
+#  radio_btn: xpath://label[text()=' Male ']
+#  name : Robot Framework
+#
+#    json_path: EXECDIR/tests/data/system_e2e_data/store_orders/
+#    json: C669113.json
+#    uname: nikhil.jagannath@sleepnumber.com
+#    #pass           check pass
+#    pass: U05iITQ3NDUxSmFnYW5uYXRo
+#    #decryptedPassword    b64decode    pass
+#    search_box:       //*[@id="term"]
+#    search_button:    //button[@id='search-btn']
+#    mac_id:           64DBA0F2CD95
+#    dropdown_select:    //a[@class="search-item ng-star-inserted"]
+#    360_check:        Firmness Control, 360, Dual,Boxed
+#    Matress_select:    //div[text()=" Mattress "]
+#    diagnostics_button:    //span[@id='diagnostics']
+#    run_test_button:        //span[contains(text(),'Run test')]
+#    pop_up_alert:        //p[contains(text(),'Please confirm you understand and would like to pr')]
+#    confirm_dialog_box:    //span[contains(text(),'Confirm')]
+#    confirm_run_button:    //button[.=" Run "]
+#    passed_flag:            //span[contains(text(),'Pressure Check passed!')]
+#    diagnostics_tab:        //span[contains(text(),'Diagnostics Overview')]
+#    diagnostics_time_stamp:    /html/body/app-root/app-dashboard/app-diagnostics-overview/app-diagnostics-data/div[2]/div[1]/app-installation-header/div[2]/div[6]
+#
+#
+#
+#
+#uname}            nikhil.jagannath@sleepnumber.com
+#    {
+#        "uname":  ""
+
+
+
+import base64
+
+mystr_decoded = base64.b64decode(b'U05iITQ3NDUxSmFnYW5uYXRo').decode('utf-8')
+print(mystr_decoded)
