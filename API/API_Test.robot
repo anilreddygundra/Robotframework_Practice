@@ -4,7 +4,7 @@ Resource    ../setup/API.robot
 Library    SeleniumLibrary
 
 *** Test Cases ***
-a
+api_test
     ListUser
     SingleUser
     ListResource
