@@ -14,10 +14,8 @@ date
     Execute Javascript    window.scroll(0,250)
     Next_month
     Click Element    //div[@class='react-datepicker__month']/div[6]/div[3]
-    Sleep    5
+    Sleep    2
     Date-picker
-    Last_month
-    Last_month
     Last_month
     Click Element   //div[@class='react-datepicker__month']/div[4]/div[1]
     Capture Element Screenshot    //div[@id="datePickerMonthYear"]
