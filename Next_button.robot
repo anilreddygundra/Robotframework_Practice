@@ -65,7 +65,7 @@ Click_Next
 #Variables    test.py
 #
 #*** Variables ***
-#
+
 #*** Test Cases ***
 ##Switch between Browser windows using 'Browser Title' and verify the text
 ##    [documentation]  This test case verifies that the user is able to switch between browser
